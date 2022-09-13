@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #F3EDE5;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.navbar {
+  height: 10vh;
+  margin: 10px auto 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 100px;
+}
+
+.navbar nav {
+  flex: 1;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.navbar nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  color: #747474;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar #sign-in {
+  color: #747474;
+  margin-right: 20px;
+}
+
+.btn {
+  background-color: #133416;
+  padding: 14px 28px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.content {
+  height: 55vh;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.content-info h1 {
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+
+.content-info h1 span {
+  color: #F7B300;
+}
+
+.content-info p {
+  font-size: 1em;
+  margin-bottom: 16px;
+  color: #747474;
+}
+
+.content-info .btn {
+  width: fit-content;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.content-info .ratings p {
+  display: inline-block;
+  color: #747474;
+}
+
+.content-info img {
+  margin-left: 8px;
+  width: 20px;
+}
+.content .avatar {
+  width: auto;
+  height: 100%;
+}
+footer {
+  margin: 20px 0 40px;
+}
+footer p {
+  text-align: center;
+  color: #747474;
+  margin-bottom: 10px;
+}
+footer div {
+  width: 68%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+footer div img {
+  width: 160px;
+}
